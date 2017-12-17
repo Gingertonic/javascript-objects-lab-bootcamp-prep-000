@@ -4,3 +4,7 @@ var recipes = {
   cinnamon: "a pinch",
   almondMilk: "to cover"
 };
+
+function updateObjectWithKeyAndValue(object, key, value){
+  object[key] = [value];
+}
